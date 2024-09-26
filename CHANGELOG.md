@@ -11,6 +11,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Integrated permission handling for Android.
 
-## [1.0.0] - 2024-09-26
+## [1.0.1] - 2024-09-26
 ### Added
 - Expanded functionality to support iOS.

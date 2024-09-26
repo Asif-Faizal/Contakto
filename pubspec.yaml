@@ -1,7 +1,7 @@
 name: contactor
 description: "A powerful and fast Flutter plugin designed to fetch contacts directly from the device"
 version: 1.0.1
-author: Mohammed Asif <moh.asif@protonmail.ch>
+email: moh.asif@protonmail.ch
 repository: https://github.com/Asif-Faizal/Contactor
 license: MIT
 homepage:

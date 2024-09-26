@@ -11,12 +11,10 @@ class ContactFetcher {
         return contacts.map((contact) {
           return Map<String, String>.from(contact as Map);
         }).toList();
-      } on PlatformException catch (e) {
-        print('Failed to fetch contacts: ${e.message}');
+      } on PlatformException {
         return [];
       }
     } else {
-      print('Permission not granted');
       return [];
     }
   }
@@ -26,7 +24,6 @@ class ContactFetcher {
     if (!status.isGranted) {
       status = await Permission.contacts.request();
     }
-    print('Permission status: $status');
     return status.isGranted;
   }
 }
