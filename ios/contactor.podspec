@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'contactor'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.version          = '1.0.1'
+  s.summary          = 'A powerful and fast Flutter plugin designed to fetch contacts directly from the device'
   s.description      = <<-DESC
-A new Flutter plugin project.
+A powerful and fast Flutter plugin designed to fetch contacts directly from the device. It provides a seamless and efficient way to retrieve names and phone numbers, making it ideal for apps that require quick access to a user's contact list.
                        DESC
   s.homepage         = 'http://example.com'
-  s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.license          = { :file => '../../LICENSE' }
+  s.author           = { 'Mohammed Asif' => 'moh.asif@protonmail.ch' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
